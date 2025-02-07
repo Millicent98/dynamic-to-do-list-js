@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Please enter a task.");
       return;
     }
-
+    addTaskBtn.addEventListener("click", addTask);
     const listItem = document.createElement("li");
     listItem.textContent = taskText;
 
